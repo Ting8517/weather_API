@@ -1,0 +1,92 @@
+:root {
+    --color_white: rgb(243, 243, 243);
+
+    --color_yellow: #FFD633;
+
+    --color_black: #333;
+
+    --color_blue_start: #19283D;
+
+    --color_blue_end: #1D678F;
+
+    --color_rain: #4DACFF;
+
+    --color_white_cloud: rgb(242, 249, 254);
+
+    --color_grey_cloud: #ccc;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.sunny {
+    width: 300px;
+    height: 300px;
+    fill: rgba(255, 214, 51, 1);
+    stroke: rgba(255, 214, 51, 0.5);
+    stroke-dasharray: 3px;
+    stroke-width: 15px;
+}
+
+#sun {
+    fill: rgba(255, 214, 51, 1);
+    stroke: rgba(255, 214, 51, 0.5);
+    stroke-dasharray: 3px;
+    stroke-width: 15px;
+}
+
+.cloudy_sunny {
+    width: 300px;
+    height: 300px;
+
+}
+
+.cloudy {
+    width: 300px;
+    height: 300px;
+}
+
+#cloud {
+    fill: rgb(242, 249, 254);
+}
+
+#cloud2 {
+    fill: rgb(225, 241, 252);
+}
+
+
+.overcast {
+    width: 300px;
+    height: 300px;
+}
+
+#overcast_cloud {
+    fill: rgb(209, 209, 209);
+}
+
+#overcast_cloud2 {
+    fill: rgb(150, 146, 146);
+}
+
+.rainy {
+    width: 300px;
+    height: 300px;
+}
+
+.rainy_thunder {
+    width: 300px;
+    height: 300px;
+}
+
+#rain {
+    fill: rgb(221, 234, 247);
+}
+
+#thunder {
+    fill: rgba(255, 214, 51, 1);
+    stroke: rgba(255, 214, 51, 1);
+    stroke-width: 1;
+}
